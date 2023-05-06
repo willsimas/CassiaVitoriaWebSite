@@ -1,4 +1,4 @@
-Site com Conteúde reaproveitado desse tutorial de uso do Bootstrap!
+Todo o código do site foi reaproveitado deste site que disponibiliza tutoriais de uso do Bootstrap!
 
 
 # [Start Bootstrap - Shop Homepage](https://startbootstrap.com/template/shop-homepage/)
