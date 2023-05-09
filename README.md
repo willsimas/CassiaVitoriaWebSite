@@ -1,4 +1,9 @@
 Todo o código do site foi reaproveitado deste site que disponibiliza tutoriais de uso do Bootstrap!
+LINK PARA O VÍDEO APRESENTANDO O SITE!
+https://drive.google.com/file/d/1CDi7C9XAqb2gdmhjIg_7lrvN7RWGfitJ/view?usp=share_link
+
+
+
 
 
 # [Start Bootstrap - Shop Homepage](https://startbootstrap.com/template/shop-homepage/)
