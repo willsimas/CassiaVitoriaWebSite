@@ -1,0 +1,34 @@
+.instaIMG{
+    max-width: 15%;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 20%;
+}
+
+.whatsIMG{
+    max-width: 15%;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 20%;
+}
+
+.contatoLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#headerNav{
+    background-color: #F9DADD;
+}
+
+#headerSobreMim{
+    color: #1a1a1a;
+    -webkit-text-stroke: 0.5px #535353;
+    text-stroke: 0.5px #535353;
+}
+
+#headerMain{
+    background-image: url(../assets/images/headerIMG.jpg);
+    background-size: cover;
+}

@@ -12,10 +12,13 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- CSS do tema principal (inclúi Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+
+        <!-- Estilo CSS próprio -->
+        <link rel="stylesheet" href="./css/newstyle.css">
     </head>
     <body>
         <!-- Navegação-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light" id="headerNav">
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="#!">Cássia Vitória</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -37,11 +40,11 @@
             </div>
         </nav>
         <!-- Header-->
-        <header class="bg-dark py-5">
+        <header class="py-5" id="headerMain">
             <div class="container px-4 px-lg-5 my-5">
-                <div class="text-center text-white">
+                <div class="text-center" id="headerSobreMim">
                     <h1 class="display-4 fw-bolder">Cássia Vitória</h1>
-                    <p class="lead fw-normal text-white-50 mb-0">Cuidar do seu cabelo vai ser a minha Paixão!</p>
+                    <p class="lead fw-normal">Cuidar do seu cabelo vai ser a minha Paixão!</p>
                 </div>
             </div>
         </header>
@@ -56,9 +59,7 @@
                 <div class="container px-4 px-lg-5 mt-5">
                     <div class="container px-lg-5 mt-4">
                         <div class="cols-2">
-                            <h1 class="" style="
-                            color:#000000;
-                            text-align: center; " id="sobre-mim">Sobre Mim!
+                            <h1 class="text-center">Sobre Mim!
                             </h1>
                         </div>
                         <div class="col-2"></div>
@@ -253,25 +254,17 @@
         
 
         <!-- Seção Contato -->
-
-        <section class="py-1">
-            <div class="container p-4">
-                <h3 class="text-center" id="contato">Formas de Contato</h3>
-            </div>
-            <div class="container p-4">
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./assets/images/insta.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img href="https://api.whatsapp.com/send?phone=5555479971262&text=Oii%20C%C3%A1ssiaaaaaa!!!%0AFAZ%20M%C3%81GICA%20NO%20MEU%20CABELOOO!!!" src="./assets/images/whatsapp.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    
-                    </div>
+            <section>
+                <div class="container p-4">
+                    <h3 class="text-center" id="contato">Formas de Contato</h3>
                 </div>
-            </div>
-        </section>
+                        
+                <div class="contatoLink">
+                    <img src="./assets/images/insta.jpg"   class="instaIMG" alt="...">
+                    <img href="https://api.whatsapp.com/send?phone=5555479971262&text=Oii%20C%C3%A1ssiaaaaaa!!!%0AFAZ%20M%C3%81GICA%20NO%20MEU%20CABELOOO!!!" src="./assets/images/whatsapp.jpg" class="whatsIMG" alt="...">
+                </div>
+            </section>
+
         </main>
 
         <!-- Footer-->
